@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA48363720B942E4009BF13E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48363620B942E4009BF13E /* AppDelegate.m */; };
-		EA48363A20B942E4009BF13E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48363920B942E4009BF13E /* ViewController.m */; };
 		EA48363D20B942E4009BF13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA48363B20B942E4009BF13E /* Main.storyboard */; };
 		EA48363F20B942E7009BF13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA48363E20B942E7009BF13E /* Assets.xcassets */; };
 		EA48364220B942E7009BF13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA48364020B942E7009BF13E /* LaunchScreen.storyboard */; };
-		EA48364520B942E7009BF13E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48364420B942E7009BF13E /* main.m */; };
 		EA48364F20B942E8009BF13E /* NoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48364E20B942E8009BF13E /* NoteTests.m */; };
 		EA48365A20B942E8009BF13E /* NoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48365920B942E8009BF13E /* NoteUITests.m */; };
+		EA48367120B947CC009BF13E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48366E20B947CC009BF13E /* main.m */; };
+		EA48367220B947CC009BF13E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48366F20B947CC009BF13E /* AppDelegate.m */; };
+		EA48367320B947CC009BF13E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48367020B947CC009BF13E /* TableViewController.m */; };
+		EA48367620B948E9009BF13E /* LogicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48367520B948E9009BF13E /* LogicViewController.m */; };
+		EA48367920B94910009BF13E /* LogicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48367820B94910009BF13E /* LogicModel.m */; };
+		EA48367C20B949E4009BF13E /* TableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA48367B20B949E4009BF13E /* TableModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +39,27 @@
 
 /* Begin PBXFileReference section */
 		EA48363220B942E4009BF13E /* Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Note.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA48363520B942E4009BF13E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EA48363620B942E4009BF13E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA48363820B942E4009BF13E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA48363920B942E4009BF13E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA48363C20B942E4009BF13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA48363E20B942E7009BF13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA48364120B942E7009BF13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA48364320B942E7009BF13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA48364420B942E7009BF13E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA48364A20B942E8009BF13E /* NoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA48364E20B942E8009BF13E /* NoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteTests.m; sourceTree = "<group>"; };
 		EA48365020B942E8009BF13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA48365520B942E8009BF13E /* NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA48365920B942E8009BF13E /* NoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteUITests.m; sourceTree = "<group>"; };
 		EA48365B20B942E8009BF13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA48366C20B947CC009BF13E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA48366D20B947CC009BF13E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EA48366E20B947CC009BF13E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA48366F20B947CC009BF13E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA48367020B947CC009BF13E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EA48367420B948E9009BF13E /* LogicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogicViewController.h; sourceTree = "<group>"; };
+		EA48367520B948E9009BF13E /* LogicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicViewController.m; sourceTree = "<group>"; };
+		EA48367720B94910009BF13E /* LogicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogicModel.h; sourceTree = "<group>"; };
+		EA48367820B94910009BF13E /* LogicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicModel.m; sourceTree = "<group>"; };
+		EA48367A20B949E4009BF13E /* TableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableModel.h; sourceTree = "<group>"; };
+		EA48367B20B949E4009BF13E /* TableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +110,8 @@
 		EA48363420B942E4009BF13E /* Note */ = {
 			isa = PBXGroup;
 			children = (
-				EA48363520B942E4009BF13E /* AppDelegate.h */,
-				EA48363620B942E4009BF13E /* AppDelegate.m */,
-				EA48363820B942E4009BF13E /* ViewController.h */,
-				EA48363920B942E4009BF13E /* ViewController.m */,
-				EA48363B20B942E4009BF13E /* Main.storyboard */,
-				EA48363E20B942E7009BF13E /* Assets.xcassets */,
-				EA48364020B942E7009BF13E /* LaunchScreen.storyboard */,
-				EA48364320B942E7009BF13E /* Info.plist */,
-				EA48364420B942E7009BF13E /* main.m */,
+				EA48366B20B947CC009BF13E /* Appdelegate */,
+				EA48366A20B94764009BF13E /* Logic */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -130,6 +132,35 @@
 				EA48365B20B942E8009BF13E /* Info.plist */,
 			);
 			path = NoteUITests;
+			sourceTree = "<group>";
+		};
+		EA48366A20B94764009BF13E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				EA48367420B948E9009BF13E /* LogicViewController.h */,
+				EA48367520B948E9009BF13E /* LogicViewController.m */,
+				EA48367720B94910009BF13E /* LogicModel.h */,
+				EA48367820B94910009BF13E /* LogicModel.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		EA48366B20B947CC009BF13E /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA48366E20B947CC009BF13E /* main.m */,
+				EA48366C20B947CC009BF13E /* AppDelegate.h */,
+				EA48366F20B947CC009BF13E /* AppDelegate.m */,
+				EA48366D20B947CC009BF13E /* TableViewController.h */,
+				EA48367020B947CC009BF13E /* TableViewController.m */,
+				EA48367A20B949E4009BF13E /* TableModel.h */,
+				EA48367B20B949E4009BF13E /* TableModel.m */,
+				EA48364020B942E7009BF13E /* LaunchScreen.storyboard */,
+				EA48363B20B942E4009BF13E /* Main.storyboard */,
+				EA48363E20B942E7009BF13E /* Assets.xcassets */,
+				EA48364320B942E7009BF13E /* Info.plist */,
+			);
+			path = Appdelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA48363A20B942E4009BF13E /* ViewController.m in Sources */,
-				EA48364520B942E7009BF13E /* main.m in Sources */,
-				EA48363720B942E4009BF13E /* AppDelegate.m in Sources */,
+				EA48367C20B949E4009BF13E /* TableModel.m in Sources */,
+				EA48367220B947CC009BF13E /* AppDelegate.m in Sources */,
+				EA48367620B948E9009BF13E /* LogicViewController.m in Sources */,
+				EA48367920B94910009BF13E /* LogicModel.m in Sources */,
+				EA48367320B947CC009BF13E /* TableViewController.m in Sources */,
+				EA48367120B947CC009BF13E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Note/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Note/Appdelegate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Note/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Note/Appdelegate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
